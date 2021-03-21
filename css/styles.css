@@ -1,0 +1,39 @@
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --brand-color: #2196f3;
+  --text-font-size: 14px;
+  --line-height-normal: 1.2;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--text-color);
+  font-size: var(--text-font-size);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: var(--line-height-normal);
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.logo-first-part {
+  color: var(--brand-color);
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
