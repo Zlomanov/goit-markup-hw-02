@@ -115,6 +115,7 @@ body {
   font-size: var(--text-font-size);
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   /* !Временно установил цвет фона, чтобы текст был виден*/
   background-color: #757575;
   color: rgba(255, 255, 255, 0.6);
