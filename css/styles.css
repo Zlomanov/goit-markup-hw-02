@@ -3,6 +3,8 @@
   --text-color: #757575;
   --title-color: #212121;
   --brand-color: #2196f3;
+  --hover-color: #fff;
+  --button-backround-color: #f5f4fa;
 }
 
 body {
@@ -61,7 +63,9 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #fff;
+  background-color: var(--brand-color);
+  color: var(--hover-color);
+  cursor: pointer;
 }
 
 .section-title {
@@ -126,7 +130,15 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  background: var(--button-backround-color);
   color: var(--title-color);
+  cursor: pointer;
+}
+
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+  background-color: var(--brand-color);
+  color: var(--hover-color);
 }
 
 .portfolio-subtitle {
